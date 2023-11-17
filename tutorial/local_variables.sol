@@ -17,4 +17,11 @@ contract LocalVariables {
         b = true;
         myAddress = address(1554233);
     }
+
+     function getResult() public pure returns(uint){
+      uint a = 1; // local variable
+      uint z = 2;
+      uint result = a + z;
+      return result; //access the local variable
+   }
 }

@@ -7,54 +7,33 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "b",
+				"name": "globalVars",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "address",
 						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "foo",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getResult",
-				"outputs": [
+						"type": "address"
+					},
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "i",
-				"outputs": [
+					},
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myAddress",
-				"outputs": [
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
 					{
 						"internalType": "address",
 						"name": "",
@@ -78,7 +57,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tutorial/local_variables.sol": "LocalVariables"
+			"tutorial/global_variables.sol": "GlobalVariables"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -92,12 +71,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tutorial/local_variables.sol": {
-			"keccak256": "0x94f6a4bab77ba1334e0b9745e685c80db810bf7e2d30f76c80155c6264485860",
+		"tutorial/global_variables.sol": {
+			"keccak256": "0xd310aa342d648c1174a2c3b1f9d831776db00faaa75e5576b580631516b5992f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://029307ea1929c5b7ee97d0ae3ff8f4ff5302362d262641ea75bd4f9cf48ab921",
-				"dweb:/ipfs/QmWV4aVJAt5UtNKZoNRPBL8JDN1TczHmG5UtkA1QAth89Q"
+				"bzz-raw://7c79227ab00f225416a07c7b657b04b953d6dc230836529fbc6424bf57ee6c75",
+				"dweb:/ipfs/QmfQLjuZqMRFaHSZ9qg1Fd5zhDi1UJVjyxYcZSMrJWSdpe"
 			]
 		}
 	},
