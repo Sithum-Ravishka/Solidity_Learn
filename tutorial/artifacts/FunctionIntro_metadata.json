@@ -30,6 +30,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "hello",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -82,11 +95,11 @@
 	},
 	"sources": {
 		"tutorial/func.sol": {
-			"keccak256": "0x0a9ca482c50df21bb9d63e6086b6d0a985e2fd777b9b713784fcbf78fc34018a",
+			"keccak256": "0x269519e4a56cb5adf641df68d4823cc0872cb7bd930606bbe7ee06c57e0fadfa",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4e690817116c37208688970aa0f596031c8dfad6adf8ad4a75b050846f795b5e",
-				"dweb:/ipfs/QmSNm9oFEYVzsLbumQVPm8xZiC3tRsB8bYxXvxQSncT9FY"
+				"bzz-raw://2b4c2833b3e9b60c1af5b2930a4b7b5285357d51426dd5edfb79ce122f41723c",
+				"dweb:/ipfs/QmQ5g2NhQPTtaHzSAJx7dptueJxyyrMTow8MKqeqDrTj8H"
 			]
 		}
 	},
