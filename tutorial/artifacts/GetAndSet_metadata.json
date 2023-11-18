@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "GetNumber",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_number",
+						"type": "int256"
+					}
+				],
+				"name": "SetNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tutorial/get_and_set.sol": "GetAndSet"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tutorial/get_and_set.sol": {
+			"keccak256": "0x355758ffc4b26cee7c61276ae925244dc5b2ac5976e7e316d71dd13551e10f8f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://21ef6ce00ed86e39af2c484ca68cb8b155dc8065379718b8f02b7b749b509058",
+				"dweb:/ipfs/QmTgYouV1FAoqE3x73MmCDismLDNMDMr5WRzamJ44iSLa4"
+			]
+		}
+	},
+	"version": 1
+}
