@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "updateBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tutorial/struct.sol": "Updater"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tutorial/struct.sol": {
+			"keccak256": "0x58b4fd222ad028f37302fbeb30a6d7d4912299c1a2486ee7324743dce91247cf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9b10102a2414d6809a9acc1b29b14aac29b7f676a6a248f7740cfdc6ba3374af",
+				"dweb:/ipfs/Qmb11cmohe4NdJk1zamviU2fs3R6FD3w6Wi8EDecYZipia"
+			]
+		}
+	},
+	"version": 1
+}

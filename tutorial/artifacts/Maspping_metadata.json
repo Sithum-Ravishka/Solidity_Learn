@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_toAdd",
+						"type": "uint256"
+					}
+				],
+				"name": "addBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tutorial/mapping.sol": "Maspping"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tutorial/mapping.sol": {
+			"keccak256": "0x17502e4ce5ed7ee056f15a842057711818518118a8b6df2f8b01dbb2d5e72b0e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://35eb7c5fa9073d859e42d0204c2900bb577a0459783279ba28e3e1c01481204f",
+				"dweb:/ipfs/QmcAaDzHS7MJy22VP9EgaqGaX26fzxCwMF4ZDXZszDcgck"
+			]
+		}
+	},
+	"version": 1
+}

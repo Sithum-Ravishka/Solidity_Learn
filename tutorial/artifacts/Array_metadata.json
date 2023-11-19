@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_number",
+						"type": "int256"
+					}
+				],
+				"name": "addNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pureNumber",
+				"outputs": [
+					{
+						"internalType": "int256[]",
+						"name": "",
+						"type": "int256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tutorial/array.sol": "Array"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tutorial/array.sol": {
+			"keccak256": "0x5ce95e873752e41083d37f9541e737f36ac090c3cd3b40c537361a8b62ab4d13",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9b21ddd373d908d1b52979010a553977998db1149543e4c2bce8f702a42acb4a",
+				"dweb:/ipfs/QmboQNCVDuTpNu4sYLcRVDHJcwpUVFYj9yhKoEWy7Nr6vK"
+			]
+		}
+	},
+	"version": 1
+}
