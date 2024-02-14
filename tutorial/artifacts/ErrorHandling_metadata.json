@@ -89,11 +89,11 @@
 	},
 	"sources": {
 		"tutorial/require.sol": {
-			"keccak256": "0x0b15dfd87ebadbe5203dae648d997ef97bd13bf6f04864695d37a70cb51c15c3",
+			"keccak256": "0x40655f003d353a3f957fa5a352941ec2d430c06d40a071f25ebcf8fcdc1f044e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ef11155a6da2e622128803db6a8b379931cb25160c3030bda3c450ba82fe4a26",
-				"dweb:/ipfs/QmbbU8rqFFBE2H5H9iycUMRwJUDoSPJuE2giyd1VwyRj9k"
+				"bzz-raw://9a7a3dfcf2caa65d35e8c0a16025aaba99137569d2b56641c3d4074da5459aa1",
+				"dweb:/ipfs/QmZAVzbkUQBXPPrK5jo8eimRTu9xFKm4BQV3igCfxHk5VJ"
 			]
 		}
 	},
