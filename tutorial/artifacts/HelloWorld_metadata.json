@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.22+commit.4fc1097e"
+		"version": "0.8.24+commit.e11b9ed9"
 	},
 	"language": "Solidity",
 	"output": {
@@ -26,7 +26,7 @@
 						"type": "string"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -58,11 +58,11 @@
 	},
 	"sources": {
 		"tutorial/user_input.sol": {
-			"keccak256": "0x155346ac21f2b5f87314ea6d67650fdd7d86b42a612d69620cfe461bead92a97",
+			"keccak256": "0x106e646fc724945354652939f70c2bad72887da98fbae8839e89b0d60c4011e8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://48dded1ae6b5a745db1996b1be7de722e4e0164a42d195abb52c9f2c060b559a",
-				"dweb:/ipfs/QmSCo7dpLrbU2hoK8UnxGgiLzGFt33tv94NazYJxdREDrW"
+				"bzz-raw://6a31b9107193a35251d84dc94e8443573b3c485da7958ed3cb661cb5043486a7",
+				"dweb:/ipfs/QmX1MhzvYJpQrw3pcFvkFUtNhpoAbUoVKyYebfQMfwp13V"
 			]
 		}
 	},

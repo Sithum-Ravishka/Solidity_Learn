@@ -9,7 +9,7 @@ contract HelloWorld{
         massage = _massage;
     }
 
-    function hello() public returns (string memory){
+    function hello() view public returns (string memory){
         return massage;
     }
 }
