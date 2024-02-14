@@ -1,72 +1,10 @@
 {
 	"compiler": {
-		"version": "0.8.22+commit.4fc1097e"
+		"version": "0.8.24+commit.e11b9ed9"
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "x",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "y",
-						"type": "uint256"
-					}
-				],
-				"name": "add",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "hello",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "x",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "y",
-						"type": "uint256"
-					}
-				],
-				"name": "sub",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -80,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tutorial/func.sol": "FunctionIntro"
+			"tutorial/data_location.sol": "FunctionIntro"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -94,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tutorial/func.sol": {
-			"keccak256": "0x269519e4a56cb5adf641df68d4823cc0872cb7bd930606bbe7ee06c57e0fadfa",
+		"tutorial/data_location.sol": {
+			"keccak256": "0x55b46069c75c414d630e7dfca006c1feb0f58e5a4649f97a94cba01a798aed01",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2b4c2833b3e9b60c1af5b2930a4b7b5285357d51426dd5edfb79ce122f41723c",
-				"dweb:/ipfs/QmQ5g2NhQPTtaHzSAJx7dptueJxyyrMTow8MKqeqDrTj8H"
+				"bzz-raw://331991f293eef2ff827b4e34c532a110dad66603a9e6182330388e682bc4fc19",
+				"dweb:/ipfs/QmZpVR4sakPfgi2FGb4BUkDNiBsPVtTrgLYpDjpfdNcKid"
 			]
 		}
 	},
