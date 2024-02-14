@@ -74,7 +74,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tutorial/require.sol": "ErrorHandling"
+			"tutorial/modifier.sol": "ErrorHandling"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -88,12 +88,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tutorial/require.sol": {
-			"keccak256": "0x40655f003d353a3f957fa5a352941ec2d430c06d40a071f25ebcf8fcdc1f044e",
+		"tutorial/modifier.sol": {
+			"keccak256": "0xd0f1e8714dca973c95ba645cd354bc35c48be8b14e7a594297efab82b32d32a8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9a7a3dfcf2caa65d35e8c0a16025aaba99137569d2b56641c3d4074da5459aa1",
-				"dweb:/ipfs/QmZAVzbkUQBXPPrK5jo8eimRTu9xFKm4BQV3igCfxHk5VJ"
+				"bzz-raw://869d20d9c04cae6730af5300e628c5aa559db9cb88fa962326bf9f59df308766",
+				"dweb:/ipfs/QmdmSreMAU1z4cJLwyx8sxbdgUhQiXYzJaQ23Q4bhCdad7"
 			]
 		}
 	},
