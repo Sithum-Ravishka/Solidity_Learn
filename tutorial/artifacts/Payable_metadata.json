@@ -114,7 +114,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tutorial/internal_visibility.sol": "Payable"
+			"tutorial/extrenal_function.sol": "Payable"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -128,12 +128,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tutorial/internal_visibility.sol": {
-			"keccak256": "0x99bddade029235fbfea1a263250352bf6eb77d4b0c18cbc88cd5765fc4508dce",
+		"tutorial/extrenal_function.sol": {
+			"keccak256": "0x15603fe85bb308a5b072e71b0468091a93af204b2f120dc81ea7ef097ae56b51",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://73410422dcd6f6ef7b2fdc489708746ae304bf3b1ffdfc7bc693ea9e8f3cb799",
-				"dweb:/ipfs/QmSg2VzZWfGBYEDNNKrJQuW8SWWSxsbCP2bNkMCSTedgFP"
+				"bzz-raw://6c89870da54b5faf99e137bbd026b3ccf64a5a3230306e940ef55b9c4d850bc6",
+				"dweb:/ipfs/QmRGo4v4FEyCTHuj5wqnhdT3akZWbrK87Y26nEfgqEMsc9"
 			]
 		},
 		"tutorial/ownable.sol": {
