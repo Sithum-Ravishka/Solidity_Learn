@@ -1,21 +1,13 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.22;
+pragma solidity >=0.4.16 <0.9.0;
 
-contract Event{
+import "./ownable.sol";
+
+contract Payable is Ownable{
      
     mapping(address => uint) balance;
-    address owner;
 
     event depositeDone(uint amount, address depositedTo);
-
-    modifier onlyOwner{
-        require(msg.sender == owner, "Only owner can add money to account"); // now only owner can add amount to address
-        _; // run the function
-    }
-
-    constructor(){
-        owner = msg.sender;
-    }
 
     function deposite() public payable returns (uint) {
         balance[msg.sender] += msg.value;
@@ -23,12 +15,9 @@ contract Event{
         return balance[msg.sender];
     }
 
-    function withdraw(uint amount) public returns (uint) {
-        require(balance[msg.sender] >= amount, "Insufficient balance");
-
-        balance[msg.sender] -= amount;
+    function withdraw(uint amount) public onlyOwner returns (uint) {
+        require(balance[msg.sender] >= amount);
         payable(msg.sender).transfer(amount);
-
         return balance[msg.sender];
     }
 
