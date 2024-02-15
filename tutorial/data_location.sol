@@ -2,7 +2,7 @@
 pragma solidity ^0.8.22;
 
 contract DataLocation{
-         mapping(uint => User) users;
+        mapping(uint => User) users;
 
         struct User{
             uint id;

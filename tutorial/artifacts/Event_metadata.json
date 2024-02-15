@@ -11,14 +11,27 @@
 				"type": "constructor"
 			},
 			{
+				"anonymous": false,
 				"inputs": [
 					{
+						"indexed": false,
 						"internalType": "uint256",
-						"name": "_add",
+						"name": "amount",
 						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "depositedTo",
+						"type": "address"
 					}
 				],
-				"name": "addBalance",
+				"name": "depositeDone",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "deposite",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -26,7 +39,7 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
@@ -59,6 +72,25 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -74,7 +106,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tutorial/events.sol": "ErrorHandling"
+			"tutorial/payble_func.sol": "Event"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -88,12 +120,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tutorial/events.sol": {
-			"keccak256": "0xd0f1e8714dca973c95ba645cd354bc35c48be8b14e7a594297efab82b32d32a8",
+		"tutorial/payble_func.sol": {
+			"keccak256": "0x6fc1f646bc4dc6c6cfad1e39cadd85f1b666335dce7c71b6f824e3963f5487b3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://869d20d9c04cae6730af5300e628c5aa559db9cb88fa962326bf9f59df308766",
-				"dweb:/ipfs/QmdmSreMAU1z4cJLwyx8sxbdgUhQiXYzJaQ23Q4bhCdad7"
+				"bzz-raw://4726eceb0212b12feeabccce203707a18cd4cfb0f6d6dabd333f766cd4764e3c",
+				"dweb:/ipfs/QmfUWHiFJQg96bP5bDXh5q7fxkSoQ5B8BCcTgCoza1r3xB"
 			]
 		}
 	},
