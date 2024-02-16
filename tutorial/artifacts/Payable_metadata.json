@@ -62,43 +62,6 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "recipient",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
-				"name": "transfer",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
-				"name": "withdraw",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -114,7 +77,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tutorial/extrenal_function.sol": "Payable"
+			"tutorial/multisig_project.sol": "Payable"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -128,12 +91,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tutorial/extrenal_function.sol": {
-			"keccak256": "0x15603fe85bb308a5b072e71b0468091a93af204b2f120dc81ea7ef097ae56b51",
+		"tutorial/multisig_project.sol": {
+			"keccak256": "0x78241753f968aaabcd8b0d9d23fd4ee2f64d2684af8b991706cbf965ee01e2b5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6c89870da54b5faf99e137bbd026b3ccf64a5a3230306e940ef55b9c4d850bc6",
-				"dweb:/ipfs/QmRGo4v4FEyCTHuj5wqnhdT3akZWbrK87Y26nEfgqEMsc9"
+				"bzz-raw://db2a19d62cfa861a8e8efb4799d1ac0ba958ac287046be4b4ccb968b3cce8996",
+				"dweb:/ipfs/QmVes5RLSqHbS31zzz9xKdLC5TmHXBM2pY5MejRq9eUzwh"
 			]
 		},
 		"tutorial/ownable.sol": {

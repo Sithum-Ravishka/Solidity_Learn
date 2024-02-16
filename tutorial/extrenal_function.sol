@@ -43,7 +43,7 @@ contract Payable is Ownable{
 
         _transfer(msg.sender, recipient, amount);
 
-        governmentIntance.addTransaction(msg.sender, recipient, amount);
+        governmentIntance.addTransaction{value: 1 ether}(msg.sender, recipient, amount);
 
         assert(balance[msg.sender] == previousSenderBalance - amount); // If i have 1000 after i send 500 and need true this
         // assert check balance[msg.sender] and previousSenderBalance - amount are 500 | this always true

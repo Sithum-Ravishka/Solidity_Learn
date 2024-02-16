@@ -42,7 +42,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tutorial/extrenal_function.sol": "GovernmentInterface"
+			"tutorial/multisig_project.sol": "GovernmentInterface"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -56,12 +56,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tutorial/extrenal_function.sol": {
-			"keccak256": "0x15603fe85bb308a5b072e71b0468091a93af204b2f120dc81ea7ef097ae56b51",
+		"tutorial/multisig_project.sol": {
+			"keccak256": "0x735aa6aed9f042882386c9a31fdcf8e90f0a24d6a778b178fe6fbae711b1e95f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6c89870da54b5faf99e137bbd026b3ccf64a5a3230306e940ef55b9c4d850bc6",
-				"dweb:/ipfs/QmRGo4v4FEyCTHuj5wqnhdT3akZWbrK87Y26nEfgqEMsc9"
+				"bzz-raw://1819651b166e7c454cacf2546dfd6db4746cd08dec53957ba1fee88c7cbd1acd",
+				"dweb:/ipfs/Qma8hXyX4PnDKXtqT4AE9Px4UA9mJGnDkeJqSQwNL6KNwU"
 			]
 		},
 		"tutorial/ownable.sol": {
