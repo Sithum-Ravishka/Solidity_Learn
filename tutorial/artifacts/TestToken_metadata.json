@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "available",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "required",
+						"type": "uint256"
+					}
+				],
+				"name": "InsufficientBalance",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tutorial/multisig_project.sol": "TestToken"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tutorial/multisig_project.sol": {
+			"keccak256": "0x42dd265ab3a00a7bc5ea4bec243e0fff9329a95ee2f59be97a000ae12cf7baf8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c7a44eefbebff19c556317b9b219bfcefa28adc8324f560a9c7f836512e0f113",
+				"dweb:/ipfs/QmTfV9b2suBRKFUZSaAGDt4sfWrenoCopBVxdiMAhvnTdf"
+			]
+		}
+	},
+	"version": 1
+}

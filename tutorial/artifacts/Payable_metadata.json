@@ -92,11 +92,11 @@
 	},
 	"sources": {
 		"tutorial/multisig_project.sol": {
-			"keccak256": "0x78241753f968aaabcd8b0d9d23fd4ee2f64d2684af8b991706cbf965ee01e2b5",
+			"keccak256": "0x69ccb9004acf06660648c88d766b58308356879212fc0a3320f6572d52fd2ae5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://db2a19d62cfa861a8e8efb4799d1ac0ba958ac287046be4b4ccb968b3cce8996",
-				"dweb:/ipfs/QmVes5RLSqHbS31zzz9xKdLC5TmHXBM2pY5MejRq9eUzwh"
+				"bzz-raw://9ad44c5e87bb75c6a1084b3187f705f1478ad4f462b21c5529b3de6405c07fda",
+				"dweb:/ipfs/QmYMxyGC5zeEoZmydLJPkbe15QDv8Zg3wvn84XL7sqkTzq"
 			]
 		},
 		"tutorial/ownable.sol": {

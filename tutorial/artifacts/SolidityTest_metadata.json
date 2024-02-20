@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getResult",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tutorial/multisig_project.sol": "SolidityTest"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tutorial/multisig_project.sol": {
+			"keccak256": "0x9c1e6afae64b1f2759b8454759f0843d105594a0cc5c83336576f91ed2a2dbd7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0250db9b28e1afa7d83248cddcf5653d06b9a577e925164bd67bbdbf7617e36c",
+				"dweb:/ipfs/QmdUU4bpoAQMV9zEB6WLVGjit54fDq2oXktxMG5xM2gX54"
+			]
+		}
+	},
+	"version": 1
+}
