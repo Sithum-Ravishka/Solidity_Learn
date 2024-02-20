@@ -1,26 +1,13 @@
 {
 	"compiler": {
-		"version": "0.8.22+commit.4fc1097e"
+		"version": "0.8.24+commit.e11b9ed9"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getChoice",
-				"outputs": [
-					{
-						"internalType": "enum test.FreshJuiceSize",
-						"name": "",
-						"type": "uint8"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getDefaultChoice",
+				"name": "data",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -28,13 +15,45 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "setLarge",
-				"outputs": [],
+				"name": "getResult",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "x",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "y",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
@@ -52,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tutorial/struct.sol": "test"
+			"tutorial/variable_scope.sol": "test"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -66,12 +85,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tutorial/struct.sol": {
-			"keccak256": "0x69f3ce07b354f33fe8e2ce6057bf51d45f12f5c6fd50e7f7ac19b1d488f5af7d",
+		"tutorial/variable_scope.sol": {
+			"keccak256": "0x190a63394ff97c90cbc02adee887b02745b993dc08fc8a9261ffe47b4cfcd873",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://976796627239c51fc75014a70880a2ff287ddd19491d1e3433ca68dc25f536ae",
-				"dweb:/ipfs/QmTEhyXG7aZsSWxYH2N7biPvFS4UgT4a7KNgf2aqz9cwaY"
+				"bzz-raw://8e96fac2e01880819b84ab48b6fe19ee6e8953505a8017d8093b2cc53012e7aa",
+				"dweb:/ipfs/QmcbKPStMmkxG8939qyZa14YRLakw3K7VaDHPWvNXTuzqe"
 			]
 		}
 	},

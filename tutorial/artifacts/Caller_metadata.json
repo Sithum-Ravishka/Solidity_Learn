@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.22+commit.4fc1097e"
+		"version": "0.8.24+commit.e11b9ed9"
 	},
 	"language": "Solidity",
 	"output": {
@@ -47,11 +47,11 @@
 	},
 	"sources": {
 		"tutorial/variable_scope.sol": {
-			"keccak256": "0x19ac4c6721900807b745144f9e6635b509637531f1b85cf0ab18c3ce36efa120",
+			"keccak256": "0x190a63394ff97c90cbc02adee887b02745b993dc08fc8a9261ffe47b4cfcd873",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8b7dcf2e5ff6a4fab6d0ef5b54ce8e3f0b00e524924a0198f96f75a22b49267b",
-				"dweb:/ipfs/QmNSrw54GBgv8tKEUQF8SDbBMx4y9Rkg4sffuUJfLthpkH"
+				"bzz-raw://8e96fac2e01880819b84ab48b6fe19ee6e8953505a8017d8093b2cc53012e7aa",
+				"dweb:/ipfs/QmcbKPStMmkxG8939qyZa14YRLakw3K7VaDHPWvNXTuzqe"
 			]
 		}
 	},

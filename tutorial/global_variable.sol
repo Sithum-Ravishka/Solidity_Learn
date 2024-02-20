@@ -11,6 +11,8 @@ contract Test{
     function Data() view public returns (uint){
         uint local = 300;  // Local variable 
         uint result = storedData + local;  // There access state varibale
-        return result; // Access local variable
+
+        uint hash = block.gaslimit; //global variable 
+        return hash; 
     }
 }

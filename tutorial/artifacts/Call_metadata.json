@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "data",
+				"name": "f",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -16,19 +16,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "x",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -45,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tutorial/variable_scope.sol": "C"
+			"tutorial/variable_scope.sol": "Call"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -60,11 +47,11 @@
 	},
 	"sources": {
 		"tutorial/variable_scope.sol": {
-			"keccak256": "0x190a63394ff97c90cbc02adee887b02745b993dc08fc8a9261ffe47b4cfcd873",
+			"keccak256": "0x8803ce26fdc1bbf7058001ad10e488e07fb1834ed9bf0e9834c12a6ce736f911",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8e96fac2e01880819b84ab48b6fe19ee6e8953505a8017d8093b2cc53012e7aa",
-				"dweb:/ipfs/QmcbKPStMmkxG8939qyZa14YRLakw3K7VaDHPWvNXTuzqe"
+				"bzz-raw://6327c2de19a02f6fbb1d8746c9f664ebb3cbcb0e4b130aeae4122e89b5f1b123",
+				"dweb:/ipfs/QmbQQoPMmYPJFYoReysxPZUkb5NSXTv4mVMRD51adAh73K"
 			]
 		}
 	},
