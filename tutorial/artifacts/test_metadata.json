@@ -7,12 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "data",
+				"name": "getChoice",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "enum test.FreshJuiceSize",
 						"name": "",
-						"type": "uint256"
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
@@ -20,7 +20,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "getResult",
+				"name": "getDefaultChoice",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -28,32 +28,13 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "x",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "y",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
+				"name": "setLarge",
+				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
@@ -71,7 +52,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tutorial/variable_scope.sol": "test"
+			"tutorial/enum.sol": "test"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -85,12 +66,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tutorial/variable_scope.sol": {
-			"keccak256": "0x190a63394ff97c90cbc02adee887b02745b993dc08fc8a9261ffe47b4cfcd873",
+		"tutorial/enum.sol": {
+			"keccak256": "0xbc1505663e0febf9fca356f8d54a88983023ea4955698842f7489cf9128fd311",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8e96fac2e01880819b84ab48b6fe19ee6e8953505a8017d8093b2cc53012e7aa",
-				"dweb:/ipfs/QmcbKPStMmkxG8939qyZa14YRLakw3K7VaDHPWvNXTuzqe"
+				"bzz-raw://76e81e34877d733dbf7f5cd9bf0d00ff3722bf123a1a36262068f9a32c699482",
+				"dweb:/ipfs/QmQPJfxGqa8Ko177k7EGKRpvDRHjvmez97jQSVPYZMCATM"
 			]
 		}
 	},

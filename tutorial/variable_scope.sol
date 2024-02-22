@@ -4,7 +4,7 @@ pragma solidity >=0.4.16 <0.9.0;
 contract C {
     uint public data = 30000;
     uint internal iData = 10;
-   
+    
     function x()  public returns (uint) {
         data = 3; // internal access
         return data;

@@ -7,12 +7,17 @@
 		"abi": [
 			{
 				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
 				"name": "getResult",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
 				"stateMutability": "pure",
@@ -32,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tutorial/multisig_project.sol": "SolidityTest"
+			"tutorial/variable_scope.sol": "SolidityTest"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -46,12 +51,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tutorial/multisig_project.sol": {
-			"keccak256": "0x9c1e6afae64b1f2759b8454759f0843d105594a0cc5c83336576f91ed2a2dbd7",
+		"tutorial/variable_scope.sol": {
+			"keccak256": "0x9cbab4d24f7ef46fa7bd7ae19867ec8fde6aad68727c1c716b8aff44e3ff8537",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0250db9b28e1afa7d83248cddcf5653d06b9a577e925164bd67bbdbf7617e36c",
-				"dweb:/ipfs/QmdUU4bpoAQMV9zEB6WLVGjit54fDq2oXktxMG5xM2gX54"
+				"bzz-raw://d21be0a882ba882ed17c3cbf4a838a4e25d147cb0f5e0925ff4ace7b713c05e2",
+				"dweb:/ipfs/QmNrSmWvMfwLpfewcan2TZY7V3gMc28rTfQBJiGngZPaxp"
 			]
 		}
 	},
