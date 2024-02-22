@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBook",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setBook",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tutorial/struct_test.sol": "structtest"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tutorial/struct_test.sol": {
+			"keccak256": "0x42bf16c97f5a05c9fc7d981b432471783fb920c69c7becf7c48a730743df3b19",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5ee4eb385a5c2543f6c3f90849e387f42534c7cdbb87d5b08f268242a8a8e504",
+				"dweb:/ipfs/QmZPbQx7bDNkD34ykqaL6PuHdjjccLCinR2Kh5deadspHT"
+			]
+		}
+	},
+	"version": 1
+}
